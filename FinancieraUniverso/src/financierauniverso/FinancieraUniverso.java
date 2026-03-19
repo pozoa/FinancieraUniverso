@@ -132,7 +132,11 @@ public class FinancieraUniverso {
     private static void mostrarLibro() {
         System.out.println("\n--- LIBRO CONTABLE INMUTABLE (BLOCKCHAIN) ---");
         for (Bloque b : blockchain) {
-            System.out.println("[" + b.hash.substring(0,15) + "...] Prev: " + b.previousHash.substring(0,5) + " | Envío: " + b.data.monto + " UNV");
+            // Verificamos el largo del hash para evitar errores al cortar (substring)
+            String hashCorto = (b.hash.length() > 10) ? b.hash.substring(0, 10) : b.hash;
+            String prevCorto = (b.previousHash.length() > 5) ? b.previousHash.substring(0, 5) : b.previousHash;
+            
+            System.out.println("[" + hashCorto + "...] | Prev: [" + prevCorto + "] | Envío: " + b.data.monto + " UNV");
         }
     }
 
