@@ -21,13 +21,4 @@ Tener instalado el JDK (Java Development Kit):
 sudo apt update
 sudo apt install default-jdk
 
-## 🤖 Inteligencia Artificial y Analítica Predictiva
-El sistema integra un módulo de IA (simulado en esta fase) para la gestión inteligente de activos:
-- **Detección de Anomalías:** Algoritmos que analizan patrones de gasto para identificar posibles fraudes o robos de llaves (hashes).
-- **Credit Scoring:** Analítica avanzada que evalúa el historial de transacciones en la blockchain para asignar límites de crédito automáticos.
-- **Predicción de Liquidez:** Uso de redes neuronales para predecir cuándo la entidad necesitará emitir nuevos tokens UNV según el flujo de transacciones.
 
-## 🔐 Seguridad Cuántica (Post-Quantum Ready)
-Para prevenir ataques de fuerza bruta mediante computación cuántica (como el algoritmo de Shor), el proyecto contempla:
-- **Criptografía de Reticulado (Lattice-based):** Sustitución de firmas tradicionales por algoritmos resistentes a ordenadores cuánticos.
-- **Libro Contable Inmutable:** El encadenamiento de bloques utiliza parámetros sensibles que detectan intentos de alteración incluso si provienen de computación de alto rendimiento.
