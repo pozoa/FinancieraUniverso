@@ -1,7 +1,15 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ * MIT License
+ * * Copyright (c) 2026 pozoa
+ * * Se concede permiso por la presente, de forma gratuita, a cualquier persona que obtenga 
+ * una copia de este software y de los archivos de documentación asociados (el "Software"), 
+ * para utilizar el Software sin restricción, incluyendo, sin limitación, los derechos de 
+ * uso, copia, modificación, fusión, publicación, distribución, sublicencia y/o venta 
+ * de copias del Software.
+ * * Autor: pozoa
+ * Proyecto: Sistema Financiero Blockchain "UNIVERSO" (UNVs)
  */
+
 package financierauniverso;
 
 /**
