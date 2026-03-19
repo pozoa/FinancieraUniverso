@@ -1,4 +1,4 @@
-# 🌌 Proyecto Financiera UNIVERSO (UNV) - Blockchain Edition
+# 🌌 Proyecto Financiera UNIVERSO (UNVs) - Blockchain Edition
 
 Este proyecto simula una entidad financiera interna que gestiona un libro contable inmutable (Blockchain) para controlar el flujo de **100 tokens UNIVERSO (UNVs)** entre 10 clientes iniciales.
 
